@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Hotspots>
+  <Hotspot>
+    <Assembly>TicTacToeAvalonia</Assembly>
+    <Class>TicTacToeAvalonia.MainWindow</Class>
+    <MethodName>AssessBoardState()</MethodName>
+    <ShortName />
+    <Line>75</Line>
+    <FileIndex>1</FileIndex>
+    <Metrics>
+      <Metric>
+        <Name>Cyclomatic complexity</Name>
+        <Exceeded>true</Exceeded>
+        <Value>96</Value>
+      </Metric>
+    </Metrics>
+  </Hotspot>
+  <Hotspot>
+    <Assembly>TicTacToeAvalonia</Assembly>
+    <Class>TicTacToeAvalonia.MainWindow.Board</Class>
+    <MethodName>AssessBoardState()</MethodName>
+    <ShortName />
+    <Line>75</Line>
+    <FileIndex>0</FileIndex>
+    <Metrics>
+      <Metric>
+        <Name>Cyclomatic complexity</Name>
+        <Exceeded>true</Exceeded>
+        <Value>96</Value>
+      </Metric>
+    </Metrics>
+  </Hotspot>
+</Hotspots>

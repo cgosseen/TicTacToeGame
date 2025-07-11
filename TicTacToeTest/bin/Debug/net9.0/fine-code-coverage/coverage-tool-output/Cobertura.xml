@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.764940239043825" branch-rate="0.711538461538462" lines-covered="192" lines-valid="251" branches-covered="148" branches-valid="208" complexity="227" version="0" timestamp="1745669093">
+  <sources />
+  <packages>
+    <package name="TicTacToeAvalonia" line-rate="0.697435897435897" branch-rate="0.70873786407767" complexity="220">
+      <classes>
+        <class name="TicTacToeAvalonia.App" filename="C:\Users\Goose\mssa\ccad18\Projects\cg\TicTacToeAvalonia\TicTacToeAvalonia\App.axaml" line-rate="0" branch-rate="0" complexity="2">
+          <methods>
+            <method name="!XamlIlPopulate" signature="(...)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="1" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="4" hits="0" branch="false" />
+                <line number="8" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="4" hits="0" branch="false" />
+            <line number="8" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="TicTacToeAvalonia.App" filename="C:\Users\Goose\mssa\ccad18\Projects\cg\TicTacToeAvalonia\TicTacToeAvalonia\App.axaml.cs" line-rate="0" branch-rate="0" complexity="3">
+          <methods>
+            <method name="Initialize" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="0" branch="false" />
+                <line number="11" hits="0" branch="false" />
+                <line number="12" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="OnFrameworkInitializationCompleted" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="15" hits="0" branch="false" />
+                <line number="16" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="0" branch="false" />
+                <line number="21" hits="0" branch="false" />
+                <line number="22" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="0" branch="false" />
+            <line number="11" hits="0" branch="false" />
+            <line number="12" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="16" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="17" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="19" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="TicTacToeAvalonia.MainWindow" filename="C:\Users\Goose\mssa\ccad18\Projects\cg\TicTacToeAvalonia\TicTacToeAvalonia\MainWindow.axaml" line-rate="0" branch-rate="0" complexity="2">
+          <methods>
+            <method name="!XamlIlPopulate" signature="(...)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="1" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="7" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="7" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="TicTacToeAvalonia.MainWindow" filename="C:\Users\Goose\mssa\ccad18\Projects\cg\TicTacToeAvalonia\TicTacToeAvalonia\MainWindow.axaml.cs" line-rate="0.764044943820225" branch-rate="0.73" complexity="106">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_BoardStates" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="33" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="set_BoardStates" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="33" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_getTurnCount" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="36" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0.958333333333333" branch-rate="1" complexity="2">
+              <lines>
+                <line number="29" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="36" hits="0" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+                <line number="48" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+                <line number="50" hits="1" branch="false" />
+                <line number="51" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+                <line number="53" hits="1" branch="false" />
+                <line number="54" hits="1" branch="false" />
+                <line number="56" hits="1" branch="false" />
+                <line number="59" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="60" hits="1" branch="false" />
+                <line number="61" hits="1" branch="false" />
+                <line number="62" hits="1" branch="false" />
+                <line number="64" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ClearBoard" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="67" hits="1" branch="false" />
+                <line number="68" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="69" hits="1" branch="false" />
+                <line number="70" hits="1" branch="false" />
+                <line number="71" hits="1" branch="false" />
+                <line number="72" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="AssessBoardState" signature="()" line-rate="0.764705882352941" branch-rate="0.71875" complexity="96">
+              <lines>
+                <line number="75" hits="1" branch="false" />
+                <line number="78" hits="1" branch="true" condition-coverage="100% (6/6)" />
+                <line number="79" hits="1" branch="false" />
+                <line number="80" hits="1" branch="false" />
+                <line number="82" hits="1" branch="true" condition-coverage="83% (5/6)" />
+                <line number="83" hits="1" branch="false" />
+                <line number="84" hits="0" branch="false" />
+                <line number="86" hits="1" branch="true" condition-coverage="67% (4/6)" />
+                <line number="87" hits="1" branch="false" />
+                <line number="88" hits="0" branch="false" />
+                <line number="90" hits="1" branch="true" condition-coverage="83% (5/6)" />
+                <line number="91" hits="1" branch="false" />
+                <line number="92" hits="0" branch="false" />
+                <line number="94" hits="1" branch="true" condition-coverage="67% (4/6)" />
+                <line number="95" hits="1" branch="false" />
+                <line number="96" hits="0" branch="false" />
+                <line number="98" hits="1" branch="true" condition-coverage="33% (2/6)" />
+                <line number="99" hits="1" branch="false" />
+                <line number="100" hits="0" branch="false" />
+                <line number="102" hits="1" branch="true" condition-coverage="67% (4/6)" />
+                <line number="103" hits="1" branch="false" />
+                <line number="104" hits="0" branch="false" />
+                <line number="106" hits="1" branch="true" condition-coverage="100% (6/6)" />
+                <line number="107" hits="1" branch="false" />
+                <line number="108" hits="1" branch="false" />
+                <line number="110" hits="1" branch="true" condition-coverage="67% (4/6)" />
+                <line number="111" hits="1" branch="false" />
+                <line number="112" hits="0" branch="false" />
+                <line number="114" hits="1" branch="true" condition-coverage="67% (4/6)" />
+                <line number="115" hits="1" branch="false" />
+                <line number="116" hits="0" branch="false" />
+                <line number="118" hits="1" branch="true" condition-coverage="83% (5/6)" />
+                <line number="119" hits="1" branch="false" />
+                <line number="120" hits="0" branch="false" />
+                <line number="122" hits="1" branch="true" condition-coverage="100% (6/6)" />
+                <line number="123" hits="1" branch="false" />
+                <line number="124" hits="1" branch="false" />
+                <line number="126" hits="1" branch="true" condition-coverage="100% (6/6)" />
+                <line number="127" hits="1" branch="false" />
+                <line number="128" hits="1" branch="false" />
+                <line number="130" hits="1" branch="true" condition-coverage="67% (4/6)" />
+                <line number="131" hits="1" branch="false" />
+                <line number="132" hits="0" branch="false" />
+                <line number="134" hits="1" branch="true" condition-coverage="33% (2/6)" />
+                <line number="135" hits="1" branch="false" />
+                <line number="136" hits="0" branch="false" />
+                <line number="138" hits="1" branch="true" condition-coverage="33% (2/6)" />
+                <line number="139" hits="1" branch="false" />
+                <line number="140" hits="0" branch="false" />
+                <line number="142" hits="1" branch="false" />
+                <line number="143" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ChangeGameState" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="146" hits="0" branch="false" />
+                <line number="148" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="PlayerTurn" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="151" hits="0" branch="false" />
+                <line number="153" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="36" hits="0" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="53" hits="1" branch="false" />
+            <line number="54" hits="1" branch="false" />
+            <line number="56" hits="1" branch="false" />
+            <line number="59" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="60" hits="1" branch="false" />
+            <line number="61" hits="1" branch="false" />
+            <line number="62" hits="1" branch="false" />
+            <line number="64" hits="1" branch="false" />
+            <line number="67" hits="1" branch="false" />
+            <line number="68" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="69" hits="1" branch="false" />
+            <line number="70" hits="1" branch="false" />
+            <line number="71" hits="1" branch="false" />
+            <line number="72" hits="1" branch="false" />
+            <line number="75" hits="1" branch="false" />
+            <line number="78" hits="1" branch="true" condition-coverage="100% (6/6)" />
+            <line number="79" hits="1" branch="false" />
+            <line number="80" hits="1" branch="false" />
+            <line number="82" hits="1" branch="true" condition-coverage="83% (5/6)" />
+            <line number="83" hits="1" branch="false" />
+            <line number="84" hits="0" branch="false" />
+            <line number="86" hits="1" branch="true" condition-coverage="67% (4/6)" />
+            <line number="87" hits="1" branch="false" />
+            <line number="88" hits="0" branch="false" />
+            <line number="90" hits="1" branch="true" condition-coverage="83% (5/6)" />
+            <line number="91" hits="1" branch="false" />
+            <line number="92" hits="0" branch="false" />
+            <line number="94" hits="1" branch="true" condition-coverage="67% (4/6)" />
+            <line number="95" hits="1" branch="false" />
+            <line number="96" hits="0" branch="false" />
+            <line number="98" hits="1" branch="true" condition-coverage="33% (2/6)" />
+            <line number="99" hits="1" branch="false" />
+            <line number="100" hits="0" branch="false" />
+            <line number="102" hits="1" branch="true" condition-coverage="67% (4/6)" />
+            <line number="103" hits="1" branch="false" />
+            <line number="104" hits="0" branch="false" />
+            <line number="106" hits="1" branch="true" condition-coverage="100% (6/6)" />
+            <line number="107" hits="1" branch="false" />
+            <line number="108" hits="1" branch="false" />
+            <line number="110" hits="1" branch="true" condition-coverage="67% (4/6)" />
+            <line number="111" hits="1" branch="false" />
+            <line number="112" hits="0" branch="false" />
+            <line number="114" hits="1" branch="true" condition-coverage="67% (4/6)" />
+            <line number="115" hits="1" branch="false" />
+            <line number="116" hits="0" branch="false" />
+            <line number="118" hits="1" branch="true" condition-coverage="83% (5/6)" />
+            <line number="119" hits="1" branch="false" />
+            <line number="120" hits="0" branch="false" />
+            <line number="122" hits="1" branch="true" condition-coverage="100% (6/6)" />
+            <line number="123" hits="1" branch="false" />
+            <line number="124" hits="1" branch="false" />
+            <line number="126" hits="1" branch="true" condition-coverage="100% (6/6)" />
+            <line number="127" hits="1" branch="false" />
+            <line number="128" hits="1" branch="false" />
+            <line number="130" hits="1" branch="true" condition-coverage="67% (4/6)" />
+            <line number="131" hits="1" branch="false" />
+            <line number="132" hits="0" branch="false" />
+            <line number="134" hits="1" branch="true" condition-coverage="33% (2/6)" />
+            <line number="135" hits="1" branch="false" />
+            <line number="136" hits="0" branch="false" />
+            <line number="138" hits="1" branch="true" condition-coverage="33% (2/6)" />
+            <line number="139" hits="1" branch="false" />
+            <line number="140" hits="0" branch="false" />
+            <line number="142" hits="1" branch="false" />
+            <line number="143" hits="1" branch="false" />
+            <line number="146" hits="0" branch="false" />
+            <line number="148" hits="0" branch="false" />
+            <line number="151" hits="0" branch="false" />
+            <line number="153" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="TicTacToeAvalonia.MainWindow.Board" filename="C:\Users\Goose\mssa\ccad18\Projects\cg\TicTacToeAvalonia\TicTacToeAvalonia\MainWindow.axaml.cs" line-rate="0.8" branch-rate="0.73" complexity="105">
+          <methods>
+            <method name="get_BoardStates" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="33" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="set_BoardStates" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="33" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_getTurnCount" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="36" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0.958333333333333" branch-rate="1" complexity="2">
+              <lines>
+                <line number="29" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="36" hits="0" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+                <line number="48" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+                <line number="50" hits="1" branch="false" />
+                <line number="51" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+                <line number="53" hits="1" branch="false" />
+                <line number="54" hits="1" branch="false" />
+                <line number="56" hits="1" branch="false" />
+                <line number="59" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="60" hits="1" branch="false" />
+                <line number="61" hits="1" branch="false" />
+                <line number="62" hits="1" branch="false" />
+                <line number="64" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ClearBoard" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="67" hits="1" branch="false" />
+                <line number="68" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="69" hits="1" branch="false" />
+                <line number="70" hits="1" branch="false" />
+                <line number="71" hits="1" branch="false" />
+                <line number="72" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="AssessBoardState" signature="()" line-rate="0.764705882352941" branch-rate="0.71875" complexity="96">
+              <lines>
+                <line number="75" hits="1" branch="false" />
+                <line number="78" hits="1" branch="true" condition-coverage="100% (6/6)" />
+                <line number="79" hits="1" branch="false" />
+                <line number="80" hits="1" branch="false" />
+                <line number="82" hits="1" branch="true" condition-coverage="83% (5/6)" />
+                <line number="83" hits="1" branch="false" />
+                <line number="84" hits="0" branch="false" />
+                <line number="86" hits="1" branch="true" condition-coverage="67% (4/6)" />
+                <line number="87" hits="1" branch="false" />
+                <line number="88" hits="0" branch="false" />
+                <line number="90" hits="1" branch="true" condition-coverage="83% (5/6)" />
+                <line number="91" hits="1" branch="false" />
+                <line number="92" hits="0" branch="false" />
+                <line number="94" hits="1" branch="true" condition-coverage="67% (4/6)" />
+                <line number="95" hits="1" branch="false" />
+                <line number="96" hits="0" branch="false" />
+                <line number="98" hits="1" branch="true" condition-coverage="33% (2/6)" />
+                <line number="99" hits="1" branch="false" />
+                <line number="100" hits="0" branch="false" />
+                <line number="102" hits="1" branch="true" condition-coverage="67% (4/6)" />
+                <line number="103" hits="1" branch="false" />
+                <line number="104" hits="0" branch="false" />
+                <line number="106" hits="1" branch="true" condition-coverage="100% (6/6)" />
+                <line number="107" hits="1" branch="false" />
+                <line number="108" hits="1" branch="false" />
+                <line number="110" hits="1" branch="true" condition-coverage="67% (4/6)" />
+                <line number="111" hits="1" branch="false" />
+                <line number="112" hits="0" branch="false" />
+                <line number="114" hits="1" branch="true" condition-coverage="67% (4/6)" />
+                <line number="115" hits="1" branch="false" />
+                <line number="116" hits="0" branch="false" />
+                <line number="118" hits="1" branch="true" condition-coverage="83% (5/6)" />
+                <line number="119" hits="1" branch="false" />
+                <line number="120" hits="0" branch="false" />
+                <line number="122" hits="1" branch="true" condition-coverage="100% (6/6)" />
+                <line number="123" hits="1" branch="false" />
+                <line number="124" hits="1" branch="false" />
+                <line number="126" hits="1" branch="true" condition-coverage="100% (6/6)" />
+                <line number="127" hits="1" branch="false" />
+                <line number="128" hits="1" branch="false" />
+                <line number="130" hits="1" branch="true" condition-coverage="67% (4/6)" />
+                <line number="131" hits="1" branch="false" />
+                <line number="132" hits="0" branch="false" />
+                <line number="134" hits="1" branch="true" condition-coverage="33% (2/6)" />
+                <line number="135" hits="1" branch="false" />
+                <line number="136" hits="0" branch="false" />
+                <line number="138" hits="1" branch="true" condition-coverage="33% (2/6)" />
+                <line number="139" hits="1" branch="false" />
+                <line number="140" hits="0" branch="false" />
+                <line number="142" hits="1" branch="false" />
+                <line number="143" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ChangeGameState" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="146" hits="0" branch="false" />
+                <line number="148" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="PlayerTurn" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="151" hits="0" branch="false" />
+                <line number="153" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="29" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="36" hits="0" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="53" hits="1" branch="false" />
+            <line number="54" hits="1" branch="false" />
+            <line number="56" hits="1" branch="false" />
+            <line number="59" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="60" hits="1" branch="false" />
+            <line number="61" hits="1" branch="false" />
+            <line number="62" hits="1" branch="false" />
+            <line number="64" hits="1" branch="false" />
+            <line number="67" hits="1" branch="false" />
+            <line number="68" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="69" hits="1" branch="false" />
+            <line number="70" hits="1" branch="false" />
+            <line number="71" hits="1" branch="false" />
+            <line number="72" hits="1" branch="false" />
+            <line number="75" hits="1" branch="false" />
+            <line number="78" hits="1" branch="true" condition-coverage="100% (6/6)" />
+            <line number="79" hits="1" branch="false" />
+            <line number="80" hits="1" branch="false" />
+            <line number="82" hits="1" branch="true" condition-coverage="83% (5/6)" />
+            <line number="83" hits="1" branch="false" />
+            <line number="84" hits="0" branch="false" />
+            <line number="86" hits="1" branch="true" condition-coverage="67% (4/6)" />
+            <line number="87" hits="1" branch="false" />
+            <line number="88" hits="0" branch="false" />
+            <line number="90" hits="1" branch="true" condition-coverage="83% (5/6)" />
+            <line number="91" hits="1" branch="false" />
+            <line number="92" hits="0" branch="false" />
+            <line number="94" hits="1" branch="true" condition-coverage="67% (4/6)" />
+            <line number="95" hits="1" branch="false" />
+            <line number="96" hits="0" branch="false" />
+            <line number="98" hits="1" branch="true" condition-coverage="33% (2/6)" />
+            <line number="99" hits="1" branch="false" />
+            <line number="100" hits="0" branch="false" />
+            <line number="102" hits="1" branch="true" condition-coverage="67% (4/6)" />
+            <line number="103" hits="1" branch="false" />
+            <line number="104" hits="0" branch="false" />
+            <line number="106" hits="1" branch="true" condition-coverage="100% (6/6)" />
+            <line number="107" hits="1" branch="false" />
+            <line number="108" hits="1" branch="false" />
+            <line number="110" hits="1" branch="true" condition-coverage="67% (4/6)" />
+            <line number="111" hits="1" branch="false" />
+            <line number="112" hits="0" branch="false" />
+            <line number="114" hits="1" branch="true" condition-coverage="67% (4/6)" />
+            <line number="115" hits="1" branch="false" />
+            <line number="116" hits="0" branch="false" />
+            <line number="118" hits="1" branch="true" condition-coverage="83% (5/6)" />
+            <line number="119" hits="1" branch="false" />
+            <line number="120" hits="0" branch="false" />
+            <line number="122" hits="1" branch="true" condition-coverage="100% (6/6)" />
+            <line number="123" hits="1" branch="false" />
+            <line number="124" hits="1" branch="false" />
+            <line number="126" hits="1" branch="true" condition-coverage="100% (6/6)" />
+            <line number="127" hits="1" branch="false" />
+            <line number="128" hits="1" branch="false" />
+            <line number="130" hits="1" branch="true" condition-coverage="67% (4/6)" />
+            <line number="131" hits="1" branch="false" />
+            <line number="132" hits="0" branch="false" />
+            <line number="134" hits="1" branch="true" condition-coverage="33% (2/6)" />
+            <line number="135" hits="1" branch="false" />
+            <line number="136" hits="0" branch="false" />
+            <line number="138" hits="1" branch="true" condition-coverage="33% (2/6)" />
+            <line number="139" hits="1" branch="false" />
+            <line number="140" hits="0" branch="false" />
+            <line number="142" hits="1" branch="false" />
+            <line number="143" hits="1" branch="false" />
+            <line number="146" hits="0" branch="false" />
+            <line number="148" hits="0" branch="false" />
+            <line number="151" hits="0" branch="false" />
+            <line number="153" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="TicTacToeAvalonia.Program" filename="C:\Users\Goose\mssa\ccad18\Projects\cg\TicTacToeAvalonia\TicTacToeAvalonia\Program.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="0" branch="false" />
+                <line number="13" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="BuildAvaloniaApp" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="0" branch="false" />
+                <line number="20" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="0" branch="false" />
+            <line number="13" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="19" hits="0" branch="false" />
+            <line number="20" hits="0" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="TicTacToeTest" line-rate="1" branch-rate="1" complexity="7">
+      <classes>
+        <class name="TicTacToeTest.BoardTest" filename="C:\Users\Goose\mssa\ccad18\Projects\cg\TicTacToeAvalonia\TicTacToeTest\BoardTest.cs" line-rate="1" branch-rate="1" complexity="7">
+          <methods>
+            <method name="BoardInitializeTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="1" branch="false" />
+                <line number="11" hits="1" branch="false" />
+                <line number="13" hits="1" branch="false" />
+                <line number="14" hits="1" branch="false" />
+                <line number="15" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="BoardWinConditionTest" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="32" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="BoardWinConditionHorizontalTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+                <line number="50" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="BoardWinConditionVerticalTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="54" hits="1" branch="false" />
+                <line number="55" hits="1" branch="false" />
+                <line number="57" hits="1" branch="false" />
+                <line number="58" hits="1" branch="false" />
+                <line number="59" hits="1" branch="false" />
+                <line number="61" hits="1" branch="false" />
+                <line number="63" hits="1" branch="false" />
+                <line number="64" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="BoardWinConditionDiagonalTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="68" hits="1" branch="false" />
+                <line number="69" hits="1" branch="false" />
+                <line number="71" hits="1" branch="false" />
+                <line number="72" hits="1" branch="false" />
+                <line number="73" hits="1" branch="false" />
+                <line number="75" hits="1" branch="false" />
+                <line number="77" hits="1" branch="false" />
+                <line number="78" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="BoardDrawConditionTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="82" hits="1" branch="false" />
+                <line number="83" hits="1" branch="false" />
+                <line number="85" hits="1" branch="false" />
+                <line number="86" hits="1" branch="false" />
+                <line number="87" hits="1" branch="false" />
+                <line number="88" hits="1" branch="false" />
+                <line number="89" hits="1" branch="false" />
+                <line number="90" hits="1" branch="false" />
+                <line number="91" hits="1" branch="false" />
+                <line number="92" hits="1" branch="false" />
+                <line number="93" hits="1" branch="false" />
+                <line number="95" hits="1" branch="false" />
+                <line number="97" hits="1" branch="false" />
+                <line number="98" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="1" branch="false" />
+            <line number="11" hits="1" branch="false" />
+            <line number="13" hits="1" branch="false" />
+            <line number="14" hits="1" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="32" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="54" hits="1" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="57" hits="1" branch="false" />
+            <line number="58" hits="1" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="61" hits="1" branch="false" />
+            <line number="63" hits="1" branch="false" />
+            <line number="64" hits="1" branch="false" />
+            <line number="68" hits="1" branch="false" />
+            <line number="69" hits="1" branch="false" />
+            <line number="71" hits="1" branch="false" />
+            <line number="72" hits="1" branch="false" />
+            <line number="73" hits="1" branch="false" />
+            <line number="75" hits="1" branch="false" />
+            <line number="77" hits="1" branch="false" />
+            <line number="78" hits="1" branch="false" />
+            <line number="82" hits="1" branch="false" />
+            <line number="83" hits="1" branch="false" />
+            <line number="85" hits="1" branch="false" />
+            <line number="86" hits="1" branch="false" />
+            <line number="87" hits="1" branch="false" />
+            <line number="88" hits="1" branch="false" />
+            <line number="89" hits="1" branch="false" />
+            <line number="90" hits="1" branch="false" />
+            <line number="91" hits="1" branch="false" />
+            <line number="92" hits="1" branch="false" />
+            <line number="93" hits="1" branch="false" />
+            <line number="95" hits="1" branch="false" />
+            <line number="97" hits="1" branch="false" />
+            <line number="98" hits="1" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

@@ -1,0 +1,128 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="500" d:DesignHeight="500"
+        x:Class="TicTacToeAvalonia.MainWindow"
+        Title="TicTacToeAvalonia">
+	<StackPanel Width="500"
+				Spacing="10">
+		<TextBlock Margin="0 20"
+				   FontSize="25"
+				   FontWeight="Bold"
+				   TextDecorations="Underline"
+				   HorizontalAlignment="Center">
+			TIC TAC TOE
+		</TextBlock>
+		
+		<Grid ColumnDefinitions="100, 100, 100"
+			  RowDefinitions="100, 100, 100 "
+			  HorizontalAlignment="Center"
+			  VerticalAlignment="Center"
+			  ShowGridLines="True">
+
+			<Button x:Name="LeftTopButton"
+				Grid.Column="0"
+					Grid.Row="0"
+					Margin="0,0"
+					Width="97"
+					Height="97"
+					Click="LeftTopClick">
+				
+			</Button>
+			<Button x:Name="CenterLeftButton"
+				Grid.Column="0"
+					Grid.Row="1"
+					Margin="0,0"
+					Width="97"
+					Height="97"
+					Click="CenterLeftClick">
+				
+			</Button>
+			<Button x:Name="BottomLeftButton"
+				Grid.Column="0"
+					Grid.Row="2"
+					Margin="0,0"
+					Width="97"
+					Height="97"
+
+					Click="BottomLeftClick">
+				
+			</Button>
+			<Button x:Name="TopCenterButton"
+				Grid.Column="1"
+					Grid.Row="0"
+					Margin="0,0"
+					Width="97"
+					Height="97"
+					Click="TopCenterClick">
+				
+			</Button>
+			<Button x:Name="MiddleCenterButton"
+				Grid.Column="1"
+					Grid.Row="1"
+					Margin="0,0"
+					Width="97"
+					Height="97"
+					Click="MiddleCenterClick">
+
+			</Button>
+			<Button x:Name="BottomCenterButton"
+				Grid.Column="1"
+					Grid.Row="2"
+					Margin="0,0"
+					Width="97"
+					Height="97"
+					Click="BottomCenterClick">
+				
+			</Button>
+			<Button x:Name="RightTopButton"
+				Grid.Column="2"
+					Grid.Row="0"
+					Margin="0,0"
+					Width="97"
+					Height="97"
+					Click="RightTopClick">
+				
+			</Button>
+			
+			<Button x:Name="MiddleRightButton"
+				Grid.Column="2"
+					Grid.Row="1"
+					Margin="0,0"
+					Width="97"
+					Height="97"
+					Click="MiddleRightClick">
+				
+			</Button>
+			<Button x:Name="BottomRightButton"
+				Grid.Column="2"
+					Grid.Row="2"
+					Margin="0,0"
+					Width="97"
+					Height="97"
+					Click="BottomRightClick"
+
+					>
+				
+			</Button>
+		</Grid>
+		
+		<TextBlock 
+					x:Name="gameStatus"
+					Margin="0 10"
+				   FontSize="20"
+				   HorizontalAlignment="Center"
+				   VerticalAlignment="Bottom">
+			Turn: Player 1
+		</TextBlock>
+		<Button HorizontalAlignment="Center"
+				VerticalAlignment="Center"
+				Click="ResetBoard">
+				Reset Board
+		</Button>
+		
+
+	</StackPanel>
+	
+</Window>
