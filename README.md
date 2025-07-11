@@ -17,7 +17,7 @@ A simple, web-based Tic Tac Toe game built using HTML and C#. This project allow
 - A modern web browser (Chrome, Firefox, Edge, etc.)
 - [.NET SDK](https://dotnet.microsoft.com/download) (if you wish to run or modify the backend C# code)
 
-### Running the Game
+### Try the Game:
 
 1. **Clone the repository:**
    ```bash
